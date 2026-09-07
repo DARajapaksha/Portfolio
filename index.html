@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dinsanda Amajith — Full Stack Developer</title>
+<meta name="description" content="Portfolio of Dinsanda Amajith, a full-stack developer building web applications with React, Node.js and relational/NoSQL data stores." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="topbar">
+  <span class="mark">DA</span>
+  <nav class="topnav">
+    <a href="#work">Work</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-grid"></div>
+    <div class="row">
+      <div class="label-col">
+        <span class="tag">01</span>
+        <span class="tag">Colombo &amp; Monaragala, Sri Lanka</span>
+      </div>
+      <div class="content-col">
+        <p class="kicker">Full stack developer</p>
+        <h1 class="hero-title">
+          Dinsanda<br/>Amajith<span class="stroke"></span>
+        </h1>
+        <p class="hero-desc">
+          I build web applications end to end — responsive React frontends,
+          RESTful Node.js/Express backends, and the relational and NoSQL
+          data layers underneath them. BSc (Hons) Computing &amp; Information
+          Systems undergraduate at Sabaragamuwa University of Sri Lanka.
+        </p>
+        <div class="hero-links">
+          <a href="#work" class="btn-primary">See the work</a>
+          <a href="mailto:damajithrajapaksha@gmail.com" class="btn-ghost">Get in touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="row">
+      <div class="label-col"><span class="tag">02</span><span class="tag">About</span></div>
+      <div class="content-col">
+        <p class="lede">
+          Motivated undergraduate with hands-on experience shipping full-stack
+          applications rather than just coursework exercises.
+        </p>
+        <p class="body-text">
+          I work across the stack — React on the frontend, Node.js/Express
+          on the backend, and PostgreSQL, MySQL or Firebase depending on
+          what the data actually needs. My independent projects focus on
+          real-time features, authentication and deployment; my group
+          project work has covered AI-powered platforms and blockchain-based
+          verification systems. I'm looking to join a full-stack team where
+          I can keep shipping user-facing product and grow into the parts
+          of the stack I haven't touched yet.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section alt" id="skills">
+    <div class="row">
+      <div class="label-col"><span class="tag">03</span><span class="tag">Skills</span></div>
+      <div class="content-col">
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Languages</h3>
+            <div class="tagcloud"><span>PHP</span><span>JavaScript</span></div>
+          </div>
+          <div class="skill-group">
+            <h3>Frameworks</h3>
+            <div class="tagcloud"><span>React</span><span>Node.js</span><span>Express.js</span></div>
+          </div>
+          <div class="skill-group">
+            <h3>Databases</h3>
+            <div class="tagcloud"><span>MySQL</span><span>PostgreSQL</span><span>MongoDB</span><span>Firebase / Firestore</span></div>
+          </div>
+          <div class="skill-group">
+            <h3>Real-time &amp; APIs</h3>
+            <div class="tagcloud"><span>REST APIs</span><span>Socket.IO</span><span>JWT Auth</span></div>
+          </div>
+          <div class="skill-group">
+            <h3>Tooling</h3>
+            <div class="tagcloud"><span>Git</span><span>GitHub</span><span>Vercel</span><span>Render</span></div>
+          </div>
+          <div class="skill-group">
+            <h3>Working style</h3>
+            <div class="tagcloud"><span>Problem-solving</span><span>Teamwork</span><span>Adaptability</span><span>Fast learner</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK / PROJECTS -->
+  <section class="section" id="work">
+    <div class="row">
+      <div class="label-col"><span class="tag">04</span><span class="tag">Selected work</span></div>
+      <div class="content-col">
+
+        <article class="project">
+          <div class="project-head">
+            <h3>Real-Time Chat Application</h3>
+            <span class="status">Ongoing · Individual</span>
+          </div>
+          <p class="project-desc">
+            A messaging application with private and group chats. Socket.IO
+            drives live message delivery and typing/online-status indicators;
+            JWT handles authentication and chat history persists in MongoDB.
+            Frontend and backend deploy separately so reviewers get a live,
+            interactive demo rather than a static readout.
+          </p>
+          <div class="tagcloud small"><span>React</span><span>Node.js/Express</span><span>MongoDB</span><span>Socket.IO</span><span>JWT</span></div>
+          <div class="project-links">
+            <a href="#" class="proj-link" data-slot="chat-repo">GitHub ↗</a>
+            <a href="#" class="proj-link" data-slot="chat-demo">Live demo ↗</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>Job Board Application</h3>
+            <span class="status">Ongoing · Individual</span>
+          </div>
+          <p class="project-desc">
+            A job listings platform with separate employer and job-seeker
+            roles — employers post and manage listings, seekers search,
+            filter and apply. The relational schema in PostgreSQL covers
+            users, listings and applications, with search plus
+            category/location filtering.
+          </p>
+          <div class="tagcloud small"><span>React</span><span>Node.js/Express</span><span>PostgreSQL</span></div>
+          <div class="project-links">
+            <a href="#" class="proj-link" data-slot="job-repo">GitHub ↗</a>
+            <a href="#" class="proj-link" data-slot="job-demo">Live demo ↗</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>ElderExpert</h3>
+            <span class="status">Ongoing · Group</span>
+          </div>
+          <p class="project-desc">
+            An AI-powered platform connecting retired professionals with
+            companies for project-based work, and with students and junior
+            professionals for mentorship. I own the backend: authentication,
+            REST APIs, PostgreSQL data persistence, and communication
+            between system components.
+          </p>
+          <div class="tagcloud small"><span>React</span><span>Node.js</span><span>PostgreSQL</span><span>REST API</span><span>Firebase</span></div>
+          <div class="project-links">
+            <a href="#" class="proj-link" data-slot="elder-repo">GitHub ↗</a>
+            <a href="#" class="proj-link" data-slot="elder-demo">Live demo ↗</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section alt" id="education">
+    <div class="row">
+      <div class="label-col"><span class="tag">05</span><span class="tag">Education</span></div>
+      <div class="content-col">
+        <div class="edu-item">
+          <div class="edu-top">
+            <h3>BSc (Hons) in Computing and Information Systems</h3>
+            <span class="status">2024 – Present</span>
+          </div>
+          <p class="edu-sub">Sabaragamuwa University of Sri Lanka</p>
+        </div>
+        <div class="edu-item">
+          <div class="edu-top">
+            <h3>G.C.E. Advanced Level</h3>
+            <span class="status">2020 – 2022</span>
+          </div>
+          <p class="edu-sub">Dutugemunu Central College, Buttala</p>
+        </div>
+
+        <div class="misc-grid">
+          <div>
+            <h4>Achievements</h4>
+            <p class="body-text small">Top 12 Finalist, GENESIZ'26 (Aug 2026) — team "Resistors", organized by the Electronic, Robotics, and Innovation Club, General Sir John Kotelawala Defence University.</p>
+          </div>
+          <div>
+            <h4>Volunteering</h4>
+            <p class="body-text small">Graphic Designer, IEEE Student Branch, Sabaragamuwa University of Sri Lanka (2024–Present) — designed visual materials for branch activities and events.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="row">
+      <div class="label-col"><span class="tag">06</span><span class="tag">Contact</span></div>
+      <div class="content-col">
+        <p class="lede">Open to full-stack developer internships and roles.</p>
+        <div class="contact-grid">
+          <a href="mailto:damajithrajapaksha@gmail.com" class="contact-item">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">damajithrajapaksha@gmail.com</span>
+          </a>
+          <a href="https://github.com/DARajapaksha" target="_blank" rel="noopener" class="contact-item">
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">github.com/DARajapaksha</span>
+          </a>
+          <a href="#" class="contact-item" data-slot="linkedin-link">
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value" data-slot="linkedin-text">add your LinkedIn URL</span>
+          </a>
+          <a href="tel:+94703600404" class="contact-item">
+            <span class="contact-label">Phone</span>
+            <span class="contact-value">+94 70 360 0404</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="row">
+    <div class="label-col"></div>
+    <div class="content-col foot-inner">
+      <span>© <span id="year"></span> Dinsanda Amajith Rajapaksha</span>
+      <span>Built with React-ready structure · deployed on Vercel</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
